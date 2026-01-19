@@ -1,0 +1,1 @@
+C:\Users\z0245162\Documents\hacker_rank_exercies\hacker_rank_exercices\cargo\target\debug\cargo.exe: C:\Users\z0245162\Documents\hacker_rank_exercies\hacker_rank_exercices\cargo\src\main.rs C:\Users\z0245162\Documents\hacker_rank_exercies\hacker_rank_exercices\cargo\src\solve_me_first.rs
