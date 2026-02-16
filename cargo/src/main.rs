@@ -4,6 +4,8 @@ mod simple_array_sum;
 mod compare_triplets;
 mod two_sum_leetcode_1;
 mod add_two_numbers_leetcode_2;
+mod longest_substring_without_repeating_characters_leetcode_3;
+mod median_of_two_sorted_arrays_leetcode_4;
 mod utils;
 
 // Use crate to bring functions into scope
@@ -13,6 +15,8 @@ use crate::compare_triplets::compare_triplets;
 use crate::two_sum_leetcode_1::two_sum;
 use crate::add_two_numbers_leetcode_2::{add_two_numbers, ListNode};
 use crate::utils::listnode_to_vec;
+use crate::longest_substring_without_repeating_characters_leetcode_3::length_of_longest_substring;
+use crate::median_of_two_sorted_arrays_leetcode_4::find_median_sorted_arrays;
 
 
 fn main() {
@@ -28,4 +32,8 @@ fn main() {
     println!("l2 as vec: {:?}", listnode_to_vec(l2.clone()));
     let result = add_two_numbers(l1, l2);
     println!("Sum  = {:?}", listnode_to_vec(result));
+    // Leetcode 3: Longest Substring Without Repeating Characters
+    println!("Longest substring length: {}", length_of_longest_substring("abcabcbb".to_string()));
+    // Leetcode 4: Median of Two Sorted Arrays
+    println!("Median of two sorted arrays: {}", find_median_sorted_arrays(vec![1, 3], vec![2]));
 }
