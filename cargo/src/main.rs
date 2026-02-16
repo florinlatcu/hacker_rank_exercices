@@ -2,16 +2,16 @@
 mod solve_me_first;
 mod simple_array_sum;
 mod compare_triplets;
-mod two_sum_leetcode1;
-mod add_two_numbers_leetcode2;
+mod two_sum_leetcode_1;
+mod add_two_numbers_leetcode_2;
 mod utils;
 
 // Use crate to bring functions into scope
 use crate::solve_me_first::solve_me_first;
 use crate::simple_array_sum::simple_array_sum;
 use crate::compare_triplets::compare_triplets;
-use crate::two_sum_leetcode1::two_sum;
-use crate::add_two_numbers_leetcode2::{add_two_numbers, ListNode};
+use crate::two_sum_leetcode_1::two_sum;
+use crate::add_two_numbers_leetcode_2::{add_two_numbers, ListNode};
 use crate::utils::listnode_to_vec;
 
 
